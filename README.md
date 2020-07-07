@@ -59,9 +59,12 @@ All about installing a docker environment can be find in /docker/README.md
     ```
 1.  List items by type:
     ```
-    HTTP GET /api/v1/items?type=CHEST
-    HTTP GET /api/v1/items?type=RUNE
-    HTTP GET /api/v1/items?type=AWARD
+    //CHEST
+    HTTP GET /api/v1/items?type_id=1
+    //RUNE
+    HTTP GET /api/v1/items?type_id=2
+    //AWARD
+    HTTP GET /api/v1/items?type_id=3
     ```
 1.  Buy item:
     ```
